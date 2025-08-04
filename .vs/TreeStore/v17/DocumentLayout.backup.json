@@ -1,0 +1,421 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|d:\\nam3_hk3\\mobile\\flutter vs code project\\treestore.be\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|d:\\nam3_hk3\\mobile\\flutter vs code project\\treestore.be\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|d:\\nam3_hk3\\mobile\\flutter vs code project\\treestore.be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|d:\\nam3_hk3\\mobile\\flutter vs code project\\treestore.be\\controllers\\treestorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|solutionrelative:controllers\\treestorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|d:\\nam3_hk3\\mobile\\flutter vs code project\\treestore.be\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|d:\\nam3_hk3\\mobile\\flutter vs code project\\treestore.be\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|solutionrelative:services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|d:\\nam3_hk3\\mobile\\flutter vs code project\\treestore.be\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|d:\\nam3_hk3\\mobile\\flutter vs code project\\treestore.be\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|d:\\nam3_hk3\\mobile\\flutter vs code project\\treestore.be\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|d:\\nam3_hk3\\mobile\\flutter vs code project\\treestore.be\\controllers\\paypalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|solutionrelative:controllers\\paypalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|d:\\nam3_hk3\\mobile\\flutter vs code project\\treestore.be\\services\\orderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|solutionrelative:services\\orderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|d:\\nam3_hk3\\mobile\\flutter vs code project\\treestore.be\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|d:\\nam3_hk3\\mobile\\flutter vs code project\\treestore.be\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|d:\\nam3_hk3\\mobile\\flutter vs code project\\treestore.be\\services\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|solutionrelative:services\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|d:\\nam3_hk3\\mobile\\flutter vs code project\\treestore.be\\services\\interfaces\\iproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|solutionrelative:services\\interfaces\\iproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|d:\\nam3_hk3\\mobile\\flutter vs code project\\treestore.be\\controllers\\promotioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|solutionrelative:controllers\\promotioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|d:\\nam3_hk3\\mobile\\flutter vs code project\\treestore.be\\models\\productmodels\\productresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|solutionrelative:models\\productmodels\\productresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|d:\\nam3_hk3\\mobile\\flutter vs code project\\treestore.be\\models\\productmodels\\productresponsesale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|solutionrelative:models\\productmodels\\productresponsesale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|d:\\nam3_hk3\\mobile\\flutter vs code project\\treestore.be\\models\\favoritemodels\\favoriteproductresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|solutionrelative:models\\favoritemodels\\favoriteproductresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|d:\\nam3_hk3\\mobile\\flutter vs code project\\treestore.be\\controllers\\favoritescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|solutionrelative:controllers\\favoritescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|d:\\nam3_hk3\\mobile\\flutter vs code project\\treestore.be\\services\\favoriteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|solutionrelative:services\\favoriteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|d:\\nam3_hk3\\mobile\\flutter vs code project\\treestore.be\\services\\interfaces\\ifavoriteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|solutionrelative:services\\interfaces\\ifavoriteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|d:\\nam3_hk3\\mobile\\flutter vs code project\\treestore.be\\models\\customermodels\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|solutionrelative:models\\customermodels\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|d:\\nam3_hk3\\mobile\\flutter vs code project\\treestore.be\\models\\entities\\treestoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|solutionrelative:models\\entities\\treestoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|d:\\nam3_hk3\\mobile\\flutter vs code project\\treestore.be\\models\\favoritemodels\\favoriterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CAC57F7-7507-4612-8D78-BE5DD9EA87AD}|TreeStore.csproj|solutionrelative:models\\favoritemodels\\favoriterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T16:12:17.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAkwPoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T16:02:14.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAHAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T14:52:16.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA1wBgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T12:32:29.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Controllers\\AuthController.cs*",
+              "RelativeToolTip": "Controllers\\AuthController.cs*",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACsAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:32:28.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-13T07:32:45.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductServices.cs",
+              "DocumentMoniker": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Services\\ProductServices.cs",
+              "RelativeDocumentMoniker": "Services\\ProductServices.cs",
+              "ToolTip": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Services\\ProductServices.cs",
+              "RelativeToolTip": "Services\\ProductServices.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T08:06:01.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAQwI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T08:06:01.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-01T08:46:43.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserServices.cs",
+              "DocumentMoniker": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Services\\UserServices.cs",
+              "RelativeDocumentMoniker": "Services\\UserServices.cs",
+              "ToolTip": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Services\\UserServices.cs",
+              "RelativeToolTip": "Services\\UserServices.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T16:20:00.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TreeStoreContext.cs",
+              "DocumentMoniker": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Controllers\\TreeStoreContext.cs",
+              "RelativeDocumentMoniker": "Controllers\\TreeStoreContext.cs",
+              "ToolTip": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Controllers\\TreeStoreContext.cs",
+              "RelativeToolTip": "Controllers\\TreeStoreContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T16:28:51.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T15:10:31.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderServices.cs",
+              "DocumentMoniker": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Services\\OrderServices.cs",
+              "RelativeDocumentMoniker": "Services\\OrderServices.cs",
+              "ToolTip": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Services\\OrderServices.cs",
+              "RelativeToolTip": "Services\\OrderServices.cs",
+              "ViewState": "AgIAAB0BAAAAAAAAAAAAwCgBAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T14:54:28.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PayPalController.cs",
+              "DocumentMoniker": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Controllers\\PayPalController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PayPalController.cs",
+              "ToolTip": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Controllers\\PayPalController.cs",
+              "RelativeToolTip": "Controllers\\PayPalController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T14:55:10.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductResponse.cs",
+              "DocumentMoniker": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Models\\ProductModels\\ProductResponse.cs",
+              "RelativeDocumentMoniker": "Models\\ProductModels\\ProductResponse.cs",
+              "ToolTip": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Models\\ProductModels\\ProductResponse.cs",
+              "RelativeToolTip": "Models\\ProductModels\\ProductResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:07:19.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FavoriteProductResponse.cs",
+              "DocumentMoniker": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Models\\FavoriteModels\\FavoriteProductResponse.cs",
+              "RelativeDocumentMoniker": "Models\\FavoriteModels\\FavoriteProductResponse.cs",
+              "ToolTip": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Models\\FavoriteModels\\FavoriteProductResponse.cs",
+              "RelativeToolTip": "Models\\FavoriteModels\\FavoriteProductResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T08:06:01.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FavoritesController.cs",
+              "DocumentMoniker": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Controllers\\FavoritesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FavoritesController.cs",
+              "ToolTip": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Controllers\\FavoritesController.cs",
+              "RelativeToolTip": "Controllers\\FavoritesController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T08:06:01.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IFavoriteServices.cs",
+              "DocumentMoniker": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Services\\Interfaces\\IFavoriteServices.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IFavoriteServices.cs",
+              "ToolTip": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Services\\Interfaces\\IFavoriteServices.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IFavoriteServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T08:06:01.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IProductServices.cs",
+              "DocumentMoniker": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Services\\Interfaces\\IProductServices.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IProductServices.cs",
+              "ToolTip": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Services\\Interfaces\\IProductServices.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IProductServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:05:43.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FavoriteServices.cs",
+              "DocumentMoniker": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Services\\FavoriteServices.cs",
+              "RelativeDocumentMoniker": "Services\\FavoriteServices.cs",
+              "ToolTip": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Services\\FavoriteServices.cs",
+              "RelativeToolTip": "Services\\FavoriteServices.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAADwv0gAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T08:06:01.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PromotionController.cs",
+              "DocumentMoniker": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Controllers\\PromotionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PromotionController.cs",
+              "ToolTip": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Controllers\\PromotionController.cs",
+              "RelativeToolTip": "Controllers\\PromotionController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:02:04.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductResponseSale.cs",
+              "DocumentMoniker": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Models\\ProductModels\\ProductResponseSale.cs",
+              "RelativeDocumentMoniker": "Models\\ProductModels\\ProductResponseSale.cs",
+              "ToolTip": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Models\\ProductModels\\ProductResponseSale.cs",
+              "RelativeToolTip": "Models\\ProductModels\\ProductResponseSale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T09:07:54.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FavoriteRequest.cs",
+              "DocumentMoniker": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Models\\FavoriteModels\\FavoriteRequest.cs",
+              "RelativeDocumentMoniker": "Models\\FavoriteModels\\FavoriteRequest.cs",
+              "ToolTip": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Models\\FavoriteModels\\FavoriteRequest.cs",
+              "RelativeToolTip": "Models\\FavoriteModels\\FavoriteRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T08:06:01.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TreeStoreDBContext.cs",
+              "DocumentMoniker": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Models\\Entities\\TreeStoreDBContext.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\TreeStoreDBContext.cs",
+              "ToolTip": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Models\\Entities\\TreeStoreDBContext.cs",
+              "RelativeToolTip": "Models\\Entities\\TreeStoreDBContext.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowD4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T08:42:09.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Models\\CustomerModels\\EmailService.cs",
+              "RelativeDocumentMoniker": "Models\\CustomerModels\\EmailService.cs",
+              "ToolTip": "D:\\Nam3_HK3\\Mobile\\Flutter VS Code Project\\TreeStore.BE\\Models\\CustomerModels\\EmailService.cs",
+              "RelativeToolTip": "Models\\CustomerModels\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T08:51:30.943Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
