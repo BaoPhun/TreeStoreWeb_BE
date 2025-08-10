@@ -18,9 +18,9 @@ namespace TreeStore.Controllers
         //Task<ResultCustomModel<bool>> UpdateProductAsync(Product product);
         Task<ResultCustomModel<bool>> ChangeActiveAsync(int productId);
 
-        Task<ResultCustomModel<List<GetListProductSPResult>>> SearchProductByNameAsync(string name);//tìm sản phẩm theo tên
+        //Task<ResultCustomModel<List<GetListProductSPResult>>> SearchProductByNameAsync(string name);//tìm sản phẩm theo tên
         Task<ResultCustomModel<List<CreateCategoryRequest>>> GetCategorysAsync();
-        Task<ResultCustomModel<List<GetListProductSPResult>>> SearchProductsAsync(string productName,decimal? minPrice, decimal? maxPrice);
+        Task<ResultCustomModel<List<GetListProductSPResult>>> SearchProductsAsync(string? productName, decimal? minPrice, decimal? maxPrice);
 
         Task<ResultCustomModel<int>> GetTotalProductsAsync();
         Task<ResultCustomModel<List<GetListProductSPResult>>> GetProductsByCategoryAsync(int categoryId);

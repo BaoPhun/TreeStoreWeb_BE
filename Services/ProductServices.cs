@@ -241,122 +241,59 @@ namespace TreeStore.Services
 
 
 
-        // Tìm kiếm sản phẩm theo tên
-        public async Task<ResultCustomModel<List<GetListProductSPResult>>> SearchProductByNameAsync(string name)
-        {
-            if (string.IsNullOrWhiteSpace(name))
-            {
-                return new ResultCustomModel<List<GetListProductSPResult>>
-                {
-                    Code = 400,
-                    Data = null,
-                    Success = false,
-                    Message = "Tên sản phẩm không được để trống"
-                };
-            }
+        //// Tìm kiếm sản phẩm theo tên
+        //public async Task<ResultCustomModel<List<GetListProductSPResult>>> SearchProductByNameAsync(string name)
+        //{
+        //    if (string.IsNullOrWhiteSpace(name))
+        //    {
+        //        return new ResultCustomModel<List<GetListProductSPResult>>
+        //        {
+        //            Code = 400,
+        //            Data = null,
+        //            Success = false,
+        //            Message = "Tên sản phẩm không được để trống"
+        //        };
+        //    }
 
-            var products = await _db.Products
-                .Where(p => p.Name.Contains(name)) // Tìm kiếm theo thuộc tính Name
-                .Select(p => new GetListProductSPResult
-                {
-                    ProductId = p.ProductId,
-                    ProductName = p.Name, // Ánh xạ từ Name sang ProductName
-                    Description = p.Description,
-                    PriceOutput = p.PriceOutput,
-                    IsActive = p.IsActive,
-                    Quantity = p.Quantity,
-                    CategoryId = p.CategoryId,
-                    Img = p.Img,
-                    Img2 = p.Img2,
-                    Img3 = p.Img3,
-                    CategoryName = p.Category != null ? p.Category.Name : null // Kiểm tra Category nếu có
-                })
-                .ToListAsync();
+        //    var products = await _db.Products
+        //        .Where(p => p.Name.Contains(name)) // Tìm kiếm theo thuộc tính Name
+        //        .Select(p => new GetListProductSPResult
+        //        {
+        //            ProductId = p.ProductId,
+        //            ProductName = p.Name, // Ánh xạ từ Name sang ProductName
+        //            Description = p.Description,
+        //            PriceOutput = p.PriceOutput,
+        //            IsActive = p.IsActive,
+        //            Quantity = p.Quantity,
+        //            CategoryId = p.CategoryId,
+        //            Img = p.Img,
+        //            Img2 = p.Img2,
+        //            Img3 = p.Img3,
+        //            CategoryName = p.Category != null ? p.Category.Name : null // Kiểm tra Category nếu có
+        //        })
+        //        .ToListAsync();
 
-            if (!products.Any()) // Kiểm tra nếu danh sách rỗng
-            {
-                return new ResultCustomModel<List<GetListProductSPResult>>
-                {
-                    Code = 404,
-                    Data = null,
-                    Success = false,
-                    Message = "Không tìm thấy sản phẩm"
-                };
-            }
+        //    if (!products.Any()) // Kiểm tra nếu danh sách rỗng
+        //    {
+        //        return new ResultCustomModel<List<GetListProductSPResult>>
+        //        {
+        //            Code = 404,
+        //            Data = null,
+        //            Success = false,
+        //            Message = "Không tìm thấy sản phẩm"
+        //        };
+        //    }
 
-            return new ResultCustomModel<List<GetListProductSPResult>>
-            {
-                Code = 200,
-                Data = products,
-                Success = true,
-                Message = "Tìm thấy sản phẩm"
-            };
-        }
+        //    return new ResultCustomModel<List<GetListProductSPResult>>
+        //    {
+        //        Code = 200,
+        //        Data = products,
+        //        Success = true,
+        //        Message = "Tìm thấy sản phẩm"
+        //    };
+        //}
 
-        // Tìm kiếm sản phẩm theo tên và bộ lọc giá
-        public async Task<ResultCustomModel<List<GetListProductSPResult>>> SearchProductsAsync(string productName, decimal? minPrice, decimal? maxPrice)
-        {
-            // Bắt đầu truy vấn sản phẩm từ database
-            var query = _db.Products.AsQueryable();
-
-            // Lọc theo tên sản phẩm nếu được cung cấp
-            if (!string.IsNullOrWhiteSpace(productName))
-            {
-                query = query.Where(p => p.Name.Contains(productName));
-            }
-
-            // Lọc theo giá tối thiểu nếu được cung cấp
-            if (minPrice.HasValue)
-            {
-                query = query.Where(p => p.PriceOutput >= minPrice.Value);
-            }
-
-            // Lọc theo giá tối đa nếu được cung cấp
-            if (maxPrice.HasValue)
-            {
-                query = query.Where(p => p.PriceOutput <= maxPrice.Value);
-            }
-
-            // Ánh xạ dữ liệu và lấy kết quả
-            var products = await query
-                .Select(p => new GetListProductSPResult
-                {
-                    ProductId = p.ProductId,
-                    ProductName = p.Name,
-                    Description = p.Description,
-                    PriceOutput = p.PriceOutput,
-                    IsActive = p.IsActive,
-                    Quantity = p.Quantity,
-                    CategoryId = p.CategoryId,
-                    Img = p.Img,
-                    Img2 = p.Img2,
-                    Img3 = p.Img3,
-                    CategoryName = p.Category != null ? p.Category.Name : null
-                })
-                .ToListAsync();
-
-            if (!products.Any()) // Kiểm tra nếu không tìm thấy sản phẩm
-            {
-                return new ResultCustomModel<List<GetListProductSPResult>>
-                {
-                    Code = 404,
-                    Data = null,
-                    Success = false,
-                    Message = "Không tìm thấy sản phẩm"
-                };
-            }
-
-            return new ResultCustomModel<List<GetListProductSPResult>>
-            {
-                Code = 200,
-                Data = products,
-                Success = true,
-                Message = "Tìm thấy sản phẩm"
-            };
-        }
-
-
-
+       
         public async Task<ResultCustomModel<List<GetListProductSPResult>>> ListProductAsync()
         {
             List<GetListProductSPResult> rs = await _sp.GetListProductSPAsync();
@@ -496,5 +433,63 @@ namespace TreeStore.Services
             };
         }
 
+
+        // Tìm kiếm sản phẩm theo tên và bộ lọc giá
+        public async Task<ResultCustomModel<List<GetListProductSPResult>>> SearchProductsAsync(string? productName, decimal? minPrice, decimal? maxPrice)
+        {
+            var query = _db.Products.AsQueryable();
+
+            if (!string.IsNullOrWhiteSpace(productName))
+            {
+                query = query.Where(p => p.Name.Contains(productName));
+            }
+
+            if (minPrice.HasValue && minPrice.Value >= 0)
+            {
+                query = query.Where(p => p.PriceOutput >= minPrice.Value);
+            }
+
+            if (maxPrice.HasValue && maxPrice.Value >= 0)
+            {
+                query = query.Where(p => p.PriceOutput <= maxPrice.Value);
+            }
+
+            var products = await query
+                .Select(p => new GetListProductSPResult
+                {
+                    ProductId = p.ProductId,
+                    ProductName = p.Name,
+                    Description = p.Description,
+                    PriceOutput = p.PriceOutput,
+                    IsActive = p.IsActive,
+                    Quantity = p.Quantity,
+                    CategoryId = p.CategoryId,
+                    Img = p.Img,
+                    Img2 = p.Img2,
+                    Img3 = p.Img3,
+                    CategoryName = p.Category != null ? p.Category.Name : null
+                })
+                .ToListAsync();
+
+            if (!products.Any())
+            {
+                return new ResultCustomModel<List<GetListProductSPResult>>
+                {
+                    Code = 404,
+                    Data = null,
+                    Success = false,
+                    Message = "Không tìm thấy sản phẩm"
+                };
+            }
+
+            return new ResultCustomModel<List<GetListProductSPResult>>
+            {
+                Code = 200,
+                Data = products,
+                Success = true,
+                Message = "Tìm thấy sản phẩm"
+            };
+        }
     }
 }
+

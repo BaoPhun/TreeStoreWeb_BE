@@ -62,16 +62,35 @@ namespace TreeStore.Controllers
             return await _productsService.CreateProductAsync(request);
         }
         // Tìm kiếm sản phẩm theo tên
-        [HttpGet]
-        public async Task<ResultCustomModel<List<GetListProductSPResult>>> SearchByName(string name)
-        {
-            return await _productsService.SearchProductByNameAsync(name);
-        }
+        //[HttpGet]
+        //public async Task<ResultCustomModel<List<GetListProductSPResult>>> SearchByName(string name)
+        //{
+        //    return await _productsService.SearchProductByNameAsync(name);
+        //}
 
         [HttpGet]
-        public async Task<ResultCustomModel<List<GetListProductSPResult>>> SearchProducts(string productName, decimal? minPrice = null, decimal? maxPrice = null)
+        public async Task<ActionResult<ResultCustomModel<List<GetListProductSPResult>>>> SearchProducts(
+                [FromQuery] string? productName = null,
+                [FromQuery] decimal? minPrice = null,
+                [FromQuery] decimal? maxPrice = null)
         {
-            return await _productsService.SearchProductsAsync(productName,minPrice, maxPrice);
+            if (minPrice.HasValue && minPrice < 0)
+            {
+                return BadRequest(new { error = "minPrice phải lớn hơn hoặc bằng 0" });
+            }
+            if (maxPrice.HasValue && maxPrice < 0)
+            {
+                return BadRequest(new { error = "maxPrice phải lớn hơn hoặc bằng 0" });
+            }
+
+            var result = await _productsService.SearchProductsAsync(productName, minPrice, maxPrice);
+
+            if (!result.Success)
+            {
+                return NotFound(result);
+            }
+
+            return Ok(result);
         }
 
         [HttpPost]
