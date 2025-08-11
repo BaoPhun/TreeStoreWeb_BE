@@ -135,7 +135,7 @@ _NCrunch*
 .vs/TreeStore/FileContentIndex/6e6580fe-6a1f-4da0-9eaa-45d785547340.vsidx
 
 # Bỏ qua tệp cấu hình nhạy cảm
-appsettings.json
-/appsettings.json
-appsettings.Development.json
+# appsettings.json
+# /appsettings.json
+# appsettings.Development.json
 
