@@ -48,20 +48,20 @@ namespace TreeStore.Services
                 Message = "Xóa thành công "
             };
         }
-       
+
         private ReviewResponse mapToReview(Review review)
         {
-
             return new ReviewResponse
             {
-                ReviewId =review.ReviewId,
-               CustomerId = review.CustomerId,
-               ProductId = review.ProductId,
-               Comment = review.Comment,
-
-
+                ReviewId = review.ReviewId,
+                CustomerId = review.CustomerId,
+                ProductId = review.ProductId,
+                Comment = review.Comment,
+                FullName = review.Customer?.FullName ?? "Người dùng ẩn danh"
+                // Thêm dòng này
             };
         }
+
 
         public async Task<ResultCustomModel<bool>> CreateReview(ReviewRequest request)
         {
