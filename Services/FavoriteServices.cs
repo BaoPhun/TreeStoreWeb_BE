@@ -16,16 +16,18 @@ namespace TreeStore.Services
         public async Task<ResultCustomModel<List<FavoriteProductResponse>>> GetFavoritesByCustomerAsync(int customerId)
         {
             var favorites = await _db.Favorites
-                .Include(f => f.Product)
-                .Where(f => f.CustomerId == customerId)
-                .Select(f => new FavoriteProductResponse
-                {
-                    ProductId = f.Product.ProductId,
-                    ProductName = f.Product.Name,
-                    Img = f.Product.Img,
-                    PriceOutput = f.Product.PriceOutput,
-                })
-                .ToListAsync();
+            .Include(f => f.Product)
+            .Where(f => f.CustomerId == customerId)
+            .Select(f => new FavoriteProductResponse
+            {
+                ProductId = f.Product.ProductId,
+                ProductName = f.Product.Name,
+                Img = f.Product.Img,
+                PriceOutput = f.Product.PriceOutput,
+                IsActive = f.Product.IsActive ?? false 
+            })
+            .ToListAsync();
+
 
             return new ResultCustomModel<List<FavoriteProductResponse>>
             {

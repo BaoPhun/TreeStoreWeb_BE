@@ -17,6 +17,7 @@ namespace TreeStore.Models.Entities
         public string Img { get; set; }
         public string Img2 { get; set; }
         public string Img3 { get; set; }
+        public int TotalSold { get; set; }
 
         public string CategoryName { get; set; }
     }

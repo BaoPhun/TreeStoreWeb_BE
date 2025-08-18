@@ -125,5 +125,17 @@ namespace TreeStore.Controllers
             var result = await _productsService.SearchByPriceAsync(minPrice, maxPrice);
             return Ok(result);
         }
+
+        [HttpGet("top-selling")]
+        public async Task<ActionResult<ResultCustomModel<List<GetListProductSPResult>>>> GetTopSellingProducts([FromQuery] int top = 5)
+        {
+            var result = await _productsService.GetTopSellingProductsAsync(top);
+
+            if (result == null || !result.Success)
+                return NotFound(result);
+
+            return Ok(result);
+        }
+
     }
 }

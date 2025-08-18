@@ -490,6 +490,36 @@ namespace TreeStore.Services
                 Message = "Tìm thấy sản phẩm"
             };
         }
+
+        public async Task<ResultCustomModel<List<GetListProductSPResult>>> GetTopSellingProductsAsync(int top = 5)
+        {
+            var topProducts = await _db.Products
+                .Include(p => p.ProductOrders) // load các đơn hàng liên quan
+                .Select(p => new GetListProductSPResult
+                {
+                    ProductId = p.ProductId,
+                    ProductName = p.Name,
+                    Description = p.Description,
+                    Img = p.Img,
+                    PriceOutput = p.PriceOutput,
+                    Quantity = p.Quantity,
+                    CategoryId = p.CategoryId,
+                    CategoryName = p.Category != null ? p.Category.Name : null,
+                    TotalSold = p.ProductOrders.Sum(po => po.Quantity) // tính tổng đã bán
+                })
+                .OrderByDescending(p => p.TotalSold)
+                .Take(top) // lấy top N sản phẩm bán chạy
+                .ToListAsync();
+
+            return new ResultCustomModel<List<GetListProductSPResult>>
+            {
+                Code = 200,
+                Data = topProducts,
+                Success = true,
+                Message = "Lấy danh sách sản phẩm bán chạy thành công"
+            };
+        }
+
     }
 }
 

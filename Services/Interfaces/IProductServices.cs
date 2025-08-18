@@ -27,6 +27,7 @@ namespace TreeStore.Controllers
 
         Task<ResultCustomModel<List<ProductResponseSale>>> GetSaleOffProductsAsync();
         Task<ResultCustomModel<List<GetListProductSPResult>>> SearchByPriceAsync(decimal? minPrice, decimal? maxPrice);
+        Task<ResultCustomModel<List<GetListProductSPResult>>> GetTopSellingProductsAsync(int top = 5);
 
 
     }
