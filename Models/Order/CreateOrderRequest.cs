@@ -6,6 +6,7 @@
             public string Note { get; set; }
             public int? PromotionId { get; set; } // Dùng khi chỉ có ID
             public string PromotionCode { get; set; } // Dùng khi có mã code
+            public bool IsPaid { get; set; }
 
         public List<CartItem> CartItems { get; set; }
         }

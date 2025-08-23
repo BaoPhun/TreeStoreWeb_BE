@@ -17,5 +17,6 @@ namespace TreeStore.Models.Entities
         public int Quantity { get; set; }
         public int PriceOutput { get; set; }
         public string CategoryName { get; set; }
+        public bool? IsPaid { get; set; }
     }
 }

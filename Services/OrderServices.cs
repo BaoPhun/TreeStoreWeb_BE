@@ -68,7 +68,9 @@ namespace TreeStore.Services
                 CreateOn = DateTime.UtcNow,
                 TotalAmount = newTotalPrice,
                 PromotionId = request.PromotionId,
+                IsPaid = request.IsPaid // thêm dòng này
             };
+
 
             _db.Orders.Add(newOrder);
             await _db.SaveChangesAsync();
@@ -161,6 +163,7 @@ namespace TreeStore.Services
                 Note = order.Note,
                 CreateOn = order.CreateOn,
                 TotalAmount = order.TotalAmount,
+
             };
 
             return new ResultCustomModel<OrderReponse>
@@ -185,10 +188,12 @@ namespace TreeStore.Services
             DetailOrderReponse detailOrder = new DetailOrderReponse()
             {
                 DetailProducts = rs,
-                NameCustomer = customer.FullName,
-                Address = customer.Address,
+                NameCustomer = customer?.FullName ?? "Không có",
+                Address = customer?.Address ?? "Không có",
                 StateId = order.State,
+                IsPaid = order.IsPaid ?? false, // Thêm dòng này
             };
+
 
             return new ResultCustomModel<DetailOrderReponse>
             {

@@ -7,6 +7,7 @@ namespace TreeStore.Models.Order
         public string NameCustomer { get; set; }
         public string Address { get; set; }
         public short StateId { get; set; }
+        public bool IsPaid { get; set; }
 
 
         public List<GetDetailProductOrderSPResult> DetailProducts { get; set; }
